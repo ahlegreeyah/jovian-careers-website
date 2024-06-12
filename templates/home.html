@@ -13,14 +13,20 @@
         }
     </style>
 </head>
-<body>  
+<body>
+    {% include 'nav.html' %}
     <div class = "container">
-        <h1 class="text-center mt-2 mb-4">Jovian Careers</h1>
+        <h1 class="text-center mt-2 mb-4">
+            Jovian Careers
+        </h1>
         <img class="img-fluid" id="banner" src="http://127.0.0.1:5000/static/jovian-banner.avif" alt="Jovian Banner" height="400" width="1250">
-        <h2 class="text-center mt-3 mb-2">About {{company_name}}</h2>
+        <h2 class="text-center mt-3 mb-2">
+            About {{company_name}}
+        </h2>
         <p class="lead">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ratione architecto facilis sunt amet iusto maiores ad! Impedit, optio. Quae aspernatur temporibus dolorum omnis nulla sint velit beatae eius a.
-        Enim eos voluptatibus deserunt doloremque voluptatum deleniti sint atque sapiente, perferendis nesciunt quod fugiat eligendi! Minima cumque enim, pariatur ea aperiam eum, hic culpa maiores unde quae dolores harum alias!</p>
+        Enim eos voluptatibus deserunt doloremque voluptatum deleniti sint atque sapiente, perferendis nesciunt quod fugiat eligendi! Minima cumque enim, pariatur ea aperiam eum, hic culpa maiores unde quae dolores harum alias!
+        </p>
         <h2 class="text-center mt-3 mb-2">Open Positions</h2>
         <div>
             {% for job in jobs %}
