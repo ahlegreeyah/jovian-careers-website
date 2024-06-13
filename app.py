@@ -17,8 +17,14 @@ JOBS = [
     {
         'id': 3,
         'title': 'Data Analyst',
-        'location': 'Los Angeles',
+        'location': 'Abuja, Nigeria',
         'salary': '$120,000'
+    },
+    {
+        'id': 4,
+        'title': 'Software Engineer',
+        'location': 'Los Angeles',
+        'salary': '$350,000'
     }
 ]
 
