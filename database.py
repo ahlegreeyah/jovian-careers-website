@@ -26,6 +26,7 @@ def load_job_from_db(id):
             return None
         else:
             return rows[0]._asdict()
+            
 #            return dict(rows[0])
 
 def add_application_to_db(job_id, data):
